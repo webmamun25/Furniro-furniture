@@ -1,14 +1,28 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import { FaCartFlatbedSuitcase, FaUserNinja } from 'react-icons/fa6'
 import logo from '../../../../assets/furniture/logo/logo.png'
+import { Link } from 'react-router-dom'
+import { AuthContext } from '../../../Providers/AuthProviders'
 
 const Navbar = () => {
-    const Navitem=<>
-            <li><a>Home</a></li>
-            <li><a>Shop</a></li>
-            <li><a>About</a></li>
-            <li><a>Contact</a></li>
+  const {user,loading,logoutUser}=useContext(AuthContext)
+   console.log(user)
+   const Navitem=<>
+            <li> <Link to='/'>Home</Link>  </li>
+            <li> <Link to='/furniture'>Shop</Link> </li>
+            <li> <Link>About</Link> </li>
+            <li> <Link>Contact</Link> </li>
+            <li><Link to='/signup'>Signup</Link></li>
+            {
+              user?.email? <li><button className='bg-red-300 text-white' onClick={()=>{
+                logoutUser()
+            }} >Logout</button></li>:        <li><Link to='/signin'>Signin</Link></li>
+            }
+    
+
+           
+            
 
     </>
   return (
@@ -34,8 +48,51 @@ const Navbar = () => {
   </div>
   <div className="navbar-end ">
     <a className='mx-5'>
-    <FaUserNinja  />
+    
+    <button className="btn" onClick={()=>document.getElementById('my_modal_2').showModal()}><FaUserNinja  /></button>
+    <dialog id="my_modal_2" className="modal">
+  <div className="modal-box">
+  <div className="px-4 py-3 text-sm text-gray-900 dark:text-white">
+      <div>{user?.displayName}</div>
+      <div className="font-medium truncate">{user?.email}</div>
+    </div>
+    <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="avatarButton">
+      {
+        user?.email=='titu@mir.com'?<>
+        <li>
+        <Link to="/admindashboard" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</Link>
+      </li>
+        </>:<><li>
+        <Link to="/userdashboard" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</Link>
+      </li></>
+      }
+    
+      {
+        user?.email=="titu@mir.com"?'':<>
+        
+        <li>
+        <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+      </li>
+      <li>
+        <Link to="furniture/myorder" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">My Order</Link>
+      </li>
+        </>
+      }
+      
+    </ul>
+   
+    <div className="modal-action">
+      <form method="dialog">
+        {/* if there is a button in form, it will close the modal */}
+        <button className="btn">Close</button>
+      </form>
+    </div>
+
+  </div>
+</dialog>
+
     </a>
+
     <a className='mx-5'>
     <FaSearch  />
     </a>

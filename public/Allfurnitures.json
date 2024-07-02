@@ -1,0 +1,268 @@
+[
+    {
+        "product_id": 1,
+        "name": "Dining Table",
+        "image":"https://i.postimg.cc/cLQTMxqc/image1.png",
+        "brand": "FurnitureCo",
+        "price": 299.99,
+        "category": "Dining",
+        "description": "A spacious dining table perfect for family meals. Crafted from high-quality wood, it features a sleek design. Its sturdy construction ensures durability and long-lasting use.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 2,
+        "name": "Honbay Leather Futon Couch",
+        "image":"https://i.postimg.cc/PxjfbVhc/image2.jpg",
+        "brand": "Honbay",
+        "price": 399.99,
+        "category": "Living Room",
+        "description": "This futon couch offers both comfort and style. The leather finish adds a touch of elegance to any living space. Easily convertible, it's ideal for accommodating guests.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 3,
+        "name": "Cloud Sofa",
+        "image":"https://i.postimg.cc/PqTySgTn/image3.png",
+        "brand": "CloudComfort",
+        "price": 799.99,
+        "category": "Living Room",
+        "description": "The Cloud Sofa is designed for ultimate relaxation. Its plush cushions provide exceptional comfort. The modern design makes it a perfect addition to any living room.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 4,
+        "name": "Back Cushions Appear Plush and Soft",
+        "image":"https://i.postimg.cc/6Qc0gMp2/image4.png",
+        "brand": "CushionLux",
+        "price": 59.99,
+        "category": "Accessories",
+        "description": "These back cushions are designed to enhance your seating comfort. They are plush and soft, perfect for any chair or sofa. Available in various colors to match your decor.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 5,
+        "name": "Parisian Bistro",
+        "image":"https://i.postimg.cc/Bv7hthfW/image5.jpg",
+        "brand": "ParisianStyle",
+        "price": 249.99,
+        "category": "Dining",
+        "description": "Bring the charm of a Parisian cafe to your home with this bistro set. It includes a round table and two chairs, all crafted with elegant details. Perfect for small spaces and outdoor settings.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 6,
+        "name": "Cloud Sofa",
+        "image":"https://i.postimg.cc/mDrws7Pd/image6.png",
+        "brand": "CloudComfort",
+        "price": 799.99,
+        "category": "Living Room",
+        "description": "The Cloud Sofa is designed for ultimate relaxation. Its plush cushions provide exceptional comfort. The modern design makes it a perfect addition to any living room.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 7,
+        "name": "Button-Tufted Headboard Bed",
+        "image":"https://i.postimg.cc/QMd4X2Pk/image7.jpg",
+        "brand": "SleepWell",
+        "price": 499.99,
+        "category": "Bedroom",
+        "description": "This bed features a stylish button-tufted headboard. It's designed to add a touch of elegance to your bedroom. Sturdy and comfortable, it ensures a great night's sleep.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 8,
+        "name": "Burrow Slope Sofa",
+        "image":"https://i.postimg.cc/QtnqxV5j/image8.png",
+        "brand": "Burrow",
+        "price": 899.99,
+        "category": "Living Room",
+        "description": "The Burrow Slope Sofa combines modern design with maximum comfort. It features a sleek silhouette and high-quality fabric. Perfect for any contemporary living space.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 9,
+        "name": "White Plastic Chair",
+        "image":"https://i.postimg.cc/5yYSH1qL/image10.png",
+        "brand": "PlasticPro",
+        "price": 49.99,
+        "category": "Seating",
+        "description": "This white plastic chair is versatile and durable. Ideal for both indoor and outdoor use. Easy to clean and maintain, it’s a practical seating solution.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 10,
+        "name": "Article Sven Sofa",
+        "image":"https://i.postimg.cc/nVg63h58/image11.jpg",
+        "brand": "Article",
+        "price": 999.99,
+        "category": "Living Room",
+        "description": "The Article Sven Sofa is a perfect blend of style and comfort. Its sleek design complements any modern living room. Made with high-quality materials for lasting durability.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 11,
+        "name": "Modern Chaise Lounge Chair",
+        "image":"https://i.postimg.cc/prwYz7q7/image12.jpg",
+        "brand": "RelaxEase",
+        "price": 299.99,
+        "category": "Living Room",
+        "description": "This chaise lounge chair offers a modern twist on a classic design. Perfect for relaxation and lounging. Its sleek lines and comfortable cushions make it a standout piece.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 12,
+        "name": "Dresser",
+        "image":"https://i.postimg.cc/tC68wHQs/image13.jpg",
+        "brand": "StorageSolutions",
+        "price": 349.99,
+        "category": "Bedroom",
+        "description": "This dresser combines functionality with style. It offers ample storage space with its multiple drawers. The sleek design fits seamlessly into any bedroom decor.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 13,
+        "name": "Tufted Lounge Chair",
+        "image":"https://i.postimg.cc/3rdsjvtC/image14.jpg",
+        "brand": "ComfortSeating",
+        "price": 199.99,
+        "category": "Living Room",
+        "description": "This tufted lounge chair provides a luxurious seating experience. Its elegant design adds a touch of sophistication to any room. Perfect for reading or relaxing.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 14,
+        "name": "Rocking Chair",
+        "image":"https://i.postimg.cc/cLNPN50X/image15.jpg",
+        "brand": "RockNRoll",
+        "price": 159.99,
+        "category": "Seating",
+        "description": "This rocking chair is perfect for relaxation. Its classic design and sturdy construction ensure comfort and longevity. Ideal for living rooms, nurseries, or patios.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 15,
+        "name": "Club Chair",
+        "image":"https://i.postimg.cc/tgBcWqPM/image16.jpg",
+        "brand": "ClubSeating",
+        "price": 249.99,
+        "category": "Living Room",
+        "description": "This club chair offers a comfortable and stylish seating option. Its plush cushions and sturdy frame provide excellent support. Great for any living room or study.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    {
+        "product_id": 16,
+        "name": "Wood Dining Chairs",
+        "image":"https://i.postimg.cc/wjcZxcBH/image17.jpg",
+        "brand": "DiningElegance",
+        "price": 129.99,
+        "category": "Dining",
+        "description": "These wood dining chairs are both elegant and durable. Crafted from high-quality wood, they complement any dining table. Comfortable seating for family and guests.",
+        "flashsale": true,
+        "newProduct": false
+    },
+    
+    {
+        "product_id": 17,
+        "name": "Cream Fabric Dining Chair",
+        "image":"https://i.postimg.cc/JhrgsDyX/image18.jpg",
+        "brand": "DiningElegance",
+        "price": 149.99,
+        "category": "Dining",
+        "description": "This cream fabric dining chair combines comfort with style. The soft fabric and sturdy frame make it a perfect dining companion. Its neutral color fits any dining room decor.",
+        "flashsale": false,
+        "newProduct": true
+    },
+    {
+        "product_id": 18,
+        "name": "Light Brown Wooden Dining Table",
+        "image":"https://i.postimg.cc/mgRpnzyn/image19.jpg",
+        "brand": "TableCraft",
+        "price": 399.99,
+        "category": "Dining",
+        "description": "This light brown wooden dining table is perfect for family gatherings. It features a solid construction and elegant design. Its spacious surface accommodates multiple diners comfortably.",
+        "flashsale": false,
+        "newProduct": true
+    },
+    {
+        "product_id": 19,
+        "name": "Curved Arm Chaise Lounge",
+        "image":"https://i.postimg.cc/ZRgDswwP/image20.jpg",
+        "brand": "RelaxEase",
+        "price": 349.99,
+        "category": "Living Room",
+        "description": "The curved arm chaise lounge offers a blend of comfort and style. Its elegant design is perfect for any modern living space. Ideal for reading, lounging, or napping.",
+        "flashsale": false,
+        "newProduct": true
+    },
+    {
+        "product_id": 20,
+        "name": "Dark Wood Dining Set with Upholstered Chairs",
+        "image":"https://i.postimg.cc/5N8kpqLv/image21.jpg",
+        "brand": "DiningElegance",
+        "price": 599.99,
+        "category": "Dining",
+        "description": "This dining set includes a dark wood table and upholstered chairs. Perfect for formal dining settings, it combines style and functionality. The set's elegant design enhances any dining room.",
+        "flashsale": false,
+        "newProduct": true
+    },
+    {
+        "product_id": 21,
+        "name": "Black Minimalist Chair",
+        "image":"https://i.postimg.cc/Kz4H56Dv/image22.jpg",
+        "brand": "MinimalistDesigns",
+        "price": 79.99,
+        "category": "Seating",
+        "description": "This black minimalist chair offers a sleek and modern look. Ideal for any contemporary space, it's both stylish and functional. The chair's lightweight design makes it easy to move.",
+        "flashsale": false,
+        "newProduct": true
+    },
+    {
+        "product_id": 22,
+        "name": "Mid-Century Modern Loveseat",
+        "image":"https://i.postimg.cc/1Xq7kDdk/image23.jpg",
+        "brand": "RetroLiving",
+        "price": 699.99,
+        "category": "Living Room",
+        "description": "This mid-century modern loveseat adds a retro touch to any room. Its stylish design and comfortable cushions make it a great addition. Perfect for small living spaces or as an accent piece.",
+        "flashsale": false,
+        "newProduct": true
+    },
+    {
+        "product_id": 23,
+        "name": "Traditional Recliner",
+        "image":"https://i.postimg.cc/Kc6Hnskx/image24.jpg",
+        "brand": "ComfortRecline",
+        "price": 399.99,
+        "category": "Living Room",
+        "description": "This traditional recliner offers ultimate comfort and support. Its classic design fits seamlessly into any living room. The recliner's adjustable settings ensure personalized relaxation.",
+        "flashsale": false,
+        "newProduct": true
+    },
+    {
+        "product_id": 24,
+        "name": "White Table Lamp",
+        "image":"https://i.postimg.cc/DfJN4Kzx/Images9.png",
+        "brand": "BrightHome",
+        "price": 59.99,
+        "category": "Lighting",
+        "description": "This white table lamp provides both style and illumination. Perfect for any room, it features a sleek design and adjustable brightness. Its neutral color blends well with any decor.",
+        "flashsale": false,
+        "newProduct": true
+    }
+
+]
